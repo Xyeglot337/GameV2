@@ -1448,3 +1448,441 @@ _MatTransl_3B7A55D3409170328211A060FC2E3BB1E263C720_BBD650804D314CE7A44ADF9BB4F3
 [2024.08.09-07.29.23:273][108]SourceControl:  1 file changed, 0 insertions(+), 0 deletions(-)
 [2024.08.09-07.29.23:292][108]SourceControl: Принято [master 7c3c661] BP_Enemy_Base.
 [2024.08.09-07.29.23:350][108]LogAutomationController: Ignoring very large delta of 8.19 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.08.09-07.30.30:000][276]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2024.08.09-07.30.30:057][276]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/AI/Blueprints/BP_Enemy_Base1.
+[2024.08.09-07.30.30:200][276]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.08.09-07.30.30:258][276]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/AI/Blueprints/BP_Enemy_Base1] ([2] browsable assets)...
+[2024.08.09-07.30.30:310][276]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/AI/Blueprints/BP_Enemy_Base1.BP_Enemy_Base1]
+[2024.08.09-07.30.30:325][276]OBJ SavePackage:     Rendered thumbnail for [BlueprintGeneratedClass /Game/AI/Blueprints/BP_Enemy_Base1.BP_Enemy_Base1_C]
+[2024.08.09-07.30.30:325][276]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/Blueprints/BP_Enemy_Base1]
+[2024.08.09-07.30.30:325][276]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/Blueprints/BP_Enemy_Base1" FILE="../../../../../UnrealProjects/GameV2/Content/AI/Blueprints/BP_Enemy_Base1.uasset" SILENT=true
+[2024.08.09-07.30.30:359][276]LogSavePackage: Moving output files for package: /Game/AI/Blueprints/BP_Enemy_Base1
+[2024.08.09-07.30.30:359][276]LogSavePackage: Moving '../../../../../UnrealProjects/GameV2/Saved/BP_Enemy_Base1CB923144435E395E8F5B8990EA9F3139.tmp' to '../../../../../UnrealProjects/GameV2/Content/AI/Blueprints/BP_Enemy_Base1.uasset'
+[2024.08.09-07.30.30:359][276]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/AI/Blueprints/BP_Enemy_Base1.
+[2024.08.09-07.30.30:625][276]LogFileHelpers: InternalPromptForCheckoutAndSave took 426.442 ms (total: 1.97 sec)
+[2024.08.09-07.30.31:282][276]LogContentValidation: Display: Starting to validate 1 assets
+[2024.08.09-07.30.31:282][276]LogContentValidation: Enabled validators:
+[2024.08.09-07.30.31:282][276]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.08.09-07.30.31:282][276]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.08.09-07.30.31:282][276]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.08.09-07.30.31:282][276]LogContentValidation: Display: Validating asset /Game/AI/Blueprints/BP_Enemy_Base1.BP_Enemy_Base1
+[2024.08.09-07.30.31:282][276]AssetCheck: /Game/AI/Blueprints/BP_Enemy_Base1 Проверка ресурса
+[2024.08.09-07.31.10:291][419]LogDebuggerCommands: Repeating last play command: Выбранное окно просмотра
+[2024.08.09-07.31.10:389][419]LogContentBundle: [ThirdPersonMap(Автономный)] Generating Streaming for 0 Content Bundles.
+[2024.08.09-07.31.10:389][419]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.08.09-07.31.10:391][419]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 2.032 ms (total: 69.352 ms)
+[2024.08.09-07.31.10:414][419]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.08.09-07.31.10:438][419]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.08.09-07.31.10:445][419]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007127s)
+[2024.08.09-07.31.10:445][419]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.007168s)
+[2024.08.09-07.31.10:465][419]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2024.08.09-07.31.10:467][419]LogWorldMetrics: [UWorldMetricsSubsystem::Initialize]
+[2024.08.09-07.31.10:468][419]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.08.09-07.31.10:468][419]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.08.09-07.31.10:468][419]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.08.09-07.31.10:468][419]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.08.09-07.31.10:471][419]LogContentBundle: [ThirdPersonMap(Автономный)] Creating new container.
+[2024.08.09-07.31.10:471][419]LogWorldPartition: Display: WorldPartition initialize took 3.421 ms (total: 19.4 sec)
+[2024.08.09-07.31.10:471][419]LogPlayLevel: PIE: World Init took: (0.004423s)
+[2024.08.09-07.31.11:039][419]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2024.08.09-07.31.11:039][419]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.08.09-07.31.11:039][419]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.08.09-07.31.11:040][419]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.08.09-07.31.11:040][419]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.08.09-07.31.11:040][419]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.08.09-07.31.11:040][419]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.08.09-07.31.11:040][419]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.08.09-07.31.11:040][419]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.08.09-07.31.11:040][419]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.08.09-07.31.11:040][419]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.08.09-07.31.11:040][419]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.08.09-07.31.11:041][419]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.08.09-07.31.11:088][419]LogAudioMixer: Display: Using Audio Hardware Device Динамики (Razer BlackShark V2 X USB)
+[2024.08.09-07.31.11:089][419]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.08.09-07.31.11:089][419]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.08.09-07.31.11:089][419]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.08.09-07.31.11:089][419]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2024.08.09-07.31.11:089][419]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2024.08.09-07.31.11:091][419]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2024.08.09-07.31.11:091][419]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2024.08.09-07.31.11:091][419]LogInit: FAudioDevice initialized with ID 5.
+[2024.08.09-07.31.11:091][419]LogAudio: Display: Audio Device (ID: 5) registered with world 'ThirdPersonMap'.
+[2024.08.09-07.31.11:091][419]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 5
+[2024.08.09-07.31.11:093][419]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.08.09-07.31.11:124][419]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2024.08.09-10.31.11
+[2024.08.09-07.31.11:135][419]LogWorld: Bringing up level for play took: 0.041517
+[2024.08.09-07.31.11:137][419]LogOnline: OSS: Created online subsystem instance for: :Context_14
+[2024.08.09-07.31.11:138][419]AnimBlueprintLog: Warning: SLOTNODE: 'UpperBody' в экземпляре анимации класс ABP_Manny_C уже существует. Удалите копии из графа анимации для этого класса.
+[2024.08.09-07.31.11:138][419]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Hello
+[2024.08.09-07.31.11:143][419]LogScript: Warning: Script Msg: Attempted to access index 2 from array 'Inventory' of length 2 in '/Game/ThirdPerson/Blueprints/Invetory/BC_Invetory.BC_Invetory_C'!
+[2024.08.09-07.31.11:143][419]LogScript: Warning: Script Msg called by: BP_ThirdPersonCharacter_C /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_ThirdPersonCharacter_C_0
+[2024.08.09-07.31.11:914][419]PIE: Сервер вошел в систему
+[2024.08.09-07.31.11:915][419]PIE: Общее время запуска игры в редакторе: 1,617
+[2024.08.09-07.31.14:797][577]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -1.0
+[2024.08.09-07.31.14:800][577]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -0.669551
+[2024.08.09-07.31.14:970][578]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -0.4
+[2024.08.09-07.31.14:970][578]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -1.0
+[2024.08.09-07.31.15:003][579]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.309669
+[2024.08.09-07.31.15:148][580]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.86988
+[2024.08.09-07.31.15:170][581]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -0.4
+[2024.08.09-07.31.15:171][581]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -1.0
+[2024.08.09-07.31.15:229][582]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -0.281126
+[2024.08.09-07.31.15:243][583]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.799602
+[2024.08.09-07.31.15:259][584]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.513243
+[2024.08.09-07.31.15:280][585]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.250069
+[2024.08.09-07.31.15:280][585]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -1.0
+[2024.08.09-07.31.15:325][586]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -0.458309
+[2024.08.09-07.31.15:347][587]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.838057
+[2024.08.09-07.31.15:438][588]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -0.4
+[2024.08.09-07.31.15:438][588]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -1.0
+[2024.08.09-07.31.15:451][589]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -0.4734
+[2024.08.09-07.31.15:463][590]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -0.116689
+[2024.08.09-07.31.15:475][591]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.222531
+[2024.08.09-07.31.15:489][592]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.602269
+[2024.08.09-07.31.15:502][593]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.992582
+[2024.08.09-07.31.15:513][594]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.795281
+[2024.08.09-07.31.15:527][595]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.573119
+[2024.08.09-07.31.15:540][596]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.318963
+[2024.08.09-07.31.15:551][597]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.124883
+[2024.08.09-07.31.15:562][598]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -0.072204
+[2024.08.09-07.31.15:574][599]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -0.270831
+[2024.08.09-07.31.15:584][600]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -0.4
+[2024.08.09-07.31.15:783][618]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -1.0
+[2024.08.09-07.31.15:786][618]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -0.682697
+[2024.08.09-07.31.15:795][619]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -0.294623
+[2024.08.09-07.31.15:807][620]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.006214
+[2024.08.09-07.31.15:818][621]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.341171
+[2024.08.09-07.31.15:829][622]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.658586
+[2024.08.09-07.31.15:840][623]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.967326
+[2024.08.09-07.31.15:851][624]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.819888
+[2024.08.09-07.31.15:862][625]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.626407
+[2024.08.09-07.31.15:874][626]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.426145
+[2024.08.09-07.31.15:874][626]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -1.0
+[2024.08.09-07.31.15:886][627]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -0.657372
+[2024.08.09-07.31.15:898][628]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -0.326714
+[2024.08.09-07.31.15:909][629]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.000663
+[2024.08.09-07.31.15:921][630]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.335917
+[2024.08.09-07.31.15:933][631]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.682057
+[2024.08.09-07.31.15:944][632]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.996782
+[2024.08.09-07.31.15:954][633]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.806002
+[2024.08.09-07.31.15:965][634]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.610445
+[2024.08.09-07.31.15:977][635]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.407091
+[2024.08.09-07.31.15:977][635]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -1.0
+[2024.08.09-07.31.15:990][636]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -0.650383
+[2024.08.09-07.31.16:002][637]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -0.290091
+[2024.08.09-07.31.16:014][638]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.059137
+[2024.08.09-07.31.16:026][639]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.404503
+[2024.08.09-07.31.16:039][640]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.766371
+[2024.08.09-07.31.16:052][641]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.913016
+[2024.08.09-07.31.16:065][642]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.690863
+[2024.08.09-07.31.16:077][643]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.478995
+[2024.08.09-07.31.16:090][644]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.255265
+[2024.08.09-07.31.16:102][645]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.028204
+[2024.08.09-07.31.16:115][646]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -0.192943
+[2024.08.09-07.31.16:128][647]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -0.4
+[2024.08.09-07.31.16:317][662]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -1.0
+[2024.08.09-07.31.16:320][662]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -0.638631
+[2024.08.09-07.31.16:329][663]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -0.258246
+[2024.08.09-07.31.16:341][664]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.085557
+[2024.08.09-07.31.16:352][665]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.418511
+[2024.08.09-07.31.16:365][666]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.77026
+[2024.08.09-07.31.16:378][667]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.923653
+[2024.08.09-07.31.16:390][668]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.699604
+[2024.08.09-07.31.16:402][669]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.485651
+[2024.08.09-07.31.16:415][670]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.275084
+[2024.08.09-07.31.16:415][670]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -1.0
+[2024.08.09-07.31.16:428][671]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -0.620197
+[2024.08.09-07.31.16:440][672]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -0.2763
+[2024.08.09-07.31.16:453][673]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.077077
+[2024.08.09-07.31.16:465][674]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.448209
+[2024.08.09-07.31.16:477][675]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.786212
+[2024.08.09-07.31.16:490][676]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.910332
+[2024.08.09-07.31.16:502][677]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.687301
+[2024.08.09-07.31.16:515][678]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.462864
+[2024.08.09-07.31.16:516][678]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -1.0
+[2024.08.09-07.31.16:529][679]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -0.618771
+[2024.08.09-07.31.16:541][680]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -0.277937
+[2024.08.09-07.31.16:553][681]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.0746
+[2024.08.09-07.31.16:567][682]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.447726
+[2024.08.09-07.31.16:580][683]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.84094
+[2024.08.09-07.31.16:594][684]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.874749
+[2024.08.09-07.31.16:619][685]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.425577
+[2024.08.09-07.31.16:619][685]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -1.0
+[2024.08.09-07.31.16:630][686]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -0.653174
+[2024.08.09-07.31.16:641][687]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -0.338297
+[2024.08.09-07.31.16:653][688]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -0.025603
+[2024.08.09-07.31.16:665][689]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.336066
+[2024.08.09-07.31.16:680][690]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.747709
+[2024.08.09-07.31.16:693][691]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.92699
+[2024.08.09-07.31.16:707][692]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.687317
+[2024.08.09-07.31.16:719][693]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.459483
+[2024.08.09-07.31.16:719][693]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -1.0
+[2024.08.09-07.31.16:733][694]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -0.633469
+[2024.08.09-07.31.16:745][695]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -0.247537
+[2024.08.09-07.31.16:759][696]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.135989
+[2024.08.09-07.31.16:773][697]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.515826
+[2024.08.09-07.31.16:787][698]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.907889
+[2024.08.09-07.31.16:798][699]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.836251
+[2024.08.09-07.31.16:812][700]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.585243
+[2024.08.09-07.31.16:826][701]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.364125
+[2024.08.09-07.31.16:826][701]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -1.0
+[2024.08.09-07.31.16:839][702]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -0.609106
+[2024.08.09-07.31.16:853][703]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -0.226586
+[2024.08.09-07.31.16:865][704]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.145003
+[2024.08.09-07.31.16:889][705]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.803909
+[2024.08.09-07.31.16:900][706]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.917229
+[2024.08.09-07.31.16:913][707]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.700992
+[2024.08.09-07.31.16:927][708]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.454417
+[2024.08.09-07.31.16:927][708]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -1.0
+[2024.08.09-07.31.16:941][709]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -0.593451
+[2024.08.09-07.31.16:955][710]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -0.180671
+[2024.08.09-07.31.16:969][711]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.229589
+[2024.08.09-07.31.16:984][712]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.620931
+[2024.08.09-07.31.16:998][713]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.986803
+[2024.08.09-07.31.17:011][714]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.750937
+[2024.08.09-07.31.17:024][715]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.518026
+[2024.08.09-07.31.17:038][716]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.279527
+[2024.08.09-07.31.17:051][717]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.043221
+[2024.08.09-07.31.17:064][718]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -0.180907
+[2024.08.09-07.31.17:078][719]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -0.4
+[2024.08.09-07.31.17:412][746]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -1.0
+[2024.08.09-07.31.17:415][746]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -0.697343
+[2024.08.09-07.31.17:423][747]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -0.3462
+[2024.08.09-07.31.17:434][748]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -0.026837
+[2024.08.09-07.31.17:445][749]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.276497
+[2024.08.09-07.31.17:455][750]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.586137
+[2024.08.09-07.31.17:467][751]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.923786
+[2024.08.09-07.31.17:478][752]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.854236
+[2024.08.09-07.31.17:489][753]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.675368
+[2024.08.09-07.31.17:499][754]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.494471
+[2024.08.09-07.31.17:508][755]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.316762
+[2024.08.09-07.31.17:519][756]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.132168
+[2024.08.09-07.31.17:529][757]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -0.046192
+[2024.08.09-07.31.17:540][758]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -0.221619
+[2024.08.09-07.31.17:550][759]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -0.4
+[2024.08.09-07.31.17:811][784]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -1.0
+[2024.08.09-07.31.17:814][784]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -0.72162
+[2024.08.09-07.31.17:822][785]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -0.378614
+[2024.08.09-07.31.17:832][786]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -0.075112
+[2024.08.09-07.31.17:842][787]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.210911
+[2024.08.09-07.31.17:852][788]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.508483
+[2024.08.09-07.31.17:863][789]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.810797
+[2024.08.09-07.31.17:873][790]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.93757
+[2024.08.09-07.31.17:883][791]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.758351
+[2024.08.09-07.31.17:893][792]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.579204
+[2024.08.09-07.31.17:903][793]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.406129
+[2024.08.09-07.31.17:914][794]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.221847
+[2024.08.09-07.31.17:924][795]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.047951
+[2024.08.09-07.31.17:934][796]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -0.128104
+[2024.08.09-07.31.17:945][797]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -0.31755
+[2024.08.09-07.31.17:954][798]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -0.4
+[2024.08.09-07.31.18:138][816]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -1.0
+[2024.08.09-07.31.18:141][816]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -0.711509
+[2024.08.09-07.31.18:149][817]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -0.356363
+[2024.08.09-07.31.18:159][818]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -0.067229
+[2024.08.09-07.31.18:170][819]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.228414
+[2024.08.09-07.31.18:180][820]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.522746
+[2024.08.09-07.31.18:191][821]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.830223
+[2024.08.09-07.31.18:201][822]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.912106
+[2024.08.09-07.31.18:212][823]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.733293
+[2024.08.09-07.31.18:221][824]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.559739
+[2024.08.09-07.31.18:232][825]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.380054
+[2024.08.09-07.31.18:242][826]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.211329
+[2024.08.09-07.31.18:251][827]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.03322
+[2024.08.09-07.31.18:262][828]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -0.14937
+[2024.08.09-07.31.18:272][829]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -0.318289
+[2024.08.09-07.31.18:283][830]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -0.4
+[2024.08.09-07.31.18:434][845]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -1.0
+[2024.08.09-07.31.18:437][845]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -0.705114
+[2024.08.09-07.31.18:446][846]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -0.350926
+[2024.08.09-07.31.18:456][847]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -0.05188
+[2024.08.09-07.31.18:467][848]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.266711
+[2024.08.09-07.31.18:477][849]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.558383
+[2024.08.09-07.31.18:487][850]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.841348
+[2024.08.09-07.31.18:498][851]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.913641
+[2024.08.09-07.31.18:508][852]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.739896
+[2024.08.09-07.31.18:517][853]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.564175
+[2024.08.09-07.31.18:528][854]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.381513
+[2024.08.09-07.31.18:538][855]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.212222
+[2024.08.09-07.31.18:547][856]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.036039
+[2024.08.09-07.31.18:557][857]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -0.132883
+[2024.08.09-07.31.18:567][858]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -0.308576
+[2024.08.09-07.31.18:577][859]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -0.4
+[2024.08.09-07.31.18:710][872]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -1.0
+[2024.08.09-07.31.18:714][872]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -0.723817
+[2024.08.09-07.31.18:720][873]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -0.390134
+[2024.08.09-07.31.18:731][874]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -0.082449
+[2024.08.09-07.31.18:742][875]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.213931
+[2024.08.09-07.31.18:752][876]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.5099
+[2024.08.09-07.31.18:762][877]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.805388
+[2024.08.09-07.31.18:773][878]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.943813
+[2024.08.09-07.31.18:783][879]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.757616
+[2024.08.09-07.31.18:793][880]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.581505
+[2024.08.09-07.31.18:803][881]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.405304
+[2024.08.09-07.31.18:813][882]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.223075
+[2024.08.09-07.31.18:824][883]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.049762
+[2024.08.09-07.31.18:834][884]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -0.127369
+[2024.08.09-07.31.18:843][885]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -0.3029
+[2024.08.09-07.31.18:853][886]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -0.4
+[2024.08.09-07.31.18:974][898]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -1.0
+[2024.08.09-07.31.18:977][898]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -0.722143
+[2024.08.09-07.31.18:985][899]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -0.388663
+[2024.08.09-07.31.18:996][900]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -0.091409
+[2024.08.09-07.31.19:005][901]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.18648
+[2024.08.09-07.31.19:016][902]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.488826
+[2024.08.09-07.31.19:025][903]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.779774
+[2024.08.09-07.31.19:037][904]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.950202
+[2024.08.09-07.31.19:047][905]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.768444
+[2024.08.09-07.31.19:057][906]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.591963
+[2024.08.09-07.31.19:067][907]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.418797
+[2024.08.09-07.31.19:077][908]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.244586
+[2024.08.09-07.31.19:088][909]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.056393
+[2024.08.09-07.31.19:097][910]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -0.118187
+[2024.08.09-07.31.19:107][911]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -0.290698
+[2024.08.09-07.31.19:118][912]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -0.4
+[2024.08.09-07.31.19:268][927]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -1.0
+[2024.08.09-07.31.19:272][927]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -0.685334
+[2024.08.09-07.31.19:279][928]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -0.340634
+[2024.08.09-07.31.19:289][929]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -0.057377
+[2024.08.09-07.31.19:300][930]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.241868
+[2024.08.09-07.31.19:310][931]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.52352
+[2024.08.09-07.31.19:319][932]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.81182
+[2024.08.09-07.31.19:330][933]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.939328
+[2024.08.09-07.31.19:340][934]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.759743
+[2024.08.09-07.31.19:350][935]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.580852
+[2024.08.09-07.31.19:360][936]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.405975
+[2024.08.09-07.31.19:370][937]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.231234
+[2024.08.09-07.31.19:380][938]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.052984
+[2024.08.09-07.31.19:390][939]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -0.120471
+[2024.08.09-07.31.19:400][940]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -0.297401
+[2024.08.09-07.31.19:410][941]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -0.4
+[2024.08.09-07.31.19:532][953]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -1.0
+[2024.08.09-07.31.19:535][953]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -0.717109
+[2024.08.09-07.31.19:543][954]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -0.382649
+[2024.08.09-07.31.19:553][955]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -0.091926
+[2024.08.09-07.31.19:563][956]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.200854
+[2024.08.09-07.31.19:574][957]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.496189
+[2024.08.09-07.31.19:584][958]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.815654
+[2024.08.09-07.31.19:595][959]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.933598
+[2024.08.09-07.31.19:605][960]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.747253
+[2024.08.09-07.31.19:616][961]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.572611
+[2024.08.09-07.31.19:625][962]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.396861
+[2024.08.09-07.31.19:636][963]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.220872
+[2024.08.09-07.31.19:645][964]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.048961
+[2024.08.09-07.31.19:656][965]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -0.127408
+[2024.08.09-07.31.19:666][966]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -0.307376
+[2024.08.09-07.31.19:675][967]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -0.4
+[2024.08.09-07.31.19:780][977]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -1.0
+[2024.08.09-07.31.19:783][977]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -0.684957
+[2024.08.09-07.31.19:790][978]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -0.336251
+[2024.08.09-07.31.19:801][979]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -0.03976
+[2024.08.09-07.31.19:811][980]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.256151
+[2024.08.09-07.31.19:822][981]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.54678
+[2024.08.09-07.31.19:832][982]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.848717
+[2024.08.09-07.31.19:842][983]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.916485
+[2024.08.09-07.31.19:852][984]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.739731
+[2024.08.09-07.31.19:862][985]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.56585
+[2024.08.09-07.31.19:872][986]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.388351
+[2024.08.09-07.31.19:882][987]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.209259
+[2024.08.09-07.31.19:892][988]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.040053
+[2024.08.09-07.31.19:902][989]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -0.136049
+[2024.08.09-07.31.19:913][990]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -0.322326
+[2024.08.09-07.31.19:923][991]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -0.4
+[2024.08.09-07.31.20:034][  2]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -1.0
+[2024.08.09-07.31.20:037][  2]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -0.708943
+[2024.08.09-07.31.20:044][  3]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -0.370731
+[2024.08.09-07.31.20:054][  4]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -0.080086
+[2024.08.09-07.31.20:064][  5]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.205312
+[2024.08.09-07.31.20:074][  6]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.494194
+[2024.08.09-07.31.20:085][  7]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.789297
+[2024.08.09-07.31.20:094][  8]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.949525
+[2024.08.09-07.31.20:105][  9]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.774229
+[2024.08.09-07.31.20:115][ 10]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.593116
+[2024.08.09-07.31.20:127][ 11]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.405808
+[2024.08.09-07.31.20:137][ 12]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.213107
+[2024.08.09-07.31.20:148][ 13]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.024154
+[2024.08.09-07.31.20:159][ 14]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -0.156376
+[2024.08.09-07.31.20:169][ 15]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -0.34761
+[2024.08.09-07.31.20:181][ 16]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -0.4
+[2024.08.09-07.31.20:324][ 28]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -1.0
+[2024.08.09-07.31.20:325][ 28]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -0.727643
+[2024.08.09-07.31.20:334][ 29]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -0.396757
+[2024.08.09-07.31.20:343][ 30]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -0.158637
+[2024.08.09-07.31.20:354][ 31]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.146063
+[2024.08.09-07.31.20:364][ 32]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.435314
+[2024.08.09-07.31.20:373][ 33]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.708949
+[2024.08.09-07.31.20:383][ 34]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.985306
+[2024.08.09-07.31.20:391][ 35]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.850538
+[2024.08.09-07.31.20:401][ 36]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.684102
+[2024.08.09-07.31.20:411][ 37]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.51462
+[2024.08.09-07.31.20:420][ 38]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.349264
+[2024.08.09-07.31.20:421][ 38]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -1.0
+[2024.08.09-07.31.20:430][ 39]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -0.716423
+[2024.08.09-07.31.20:440][ 40]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -0.435534
+[2024.08.09-07.31.20:449][ 41]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -0.170148
+[2024.08.09-07.31.20:458][ 42]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.073503
+[2024.08.09-07.31.20:468][ 43]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.349643
+[2024.08.09-07.31.20:478][ 44]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.629017
+[2024.08.09-07.31.20:487][ 45]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.892823
+[2024.08.09-07.31.20:500][ 46]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.836058
+[2024.08.09-07.31.20:510][ 47]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.67537
+[2024.08.09-07.31.20:519][ 48]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.513115
+[2024.08.09-07.31.20:528][ 49]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.346319
+[2024.08.09-07.31.20:528][ 49]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -1.0
+[2024.08.09-07.31.20:538][ 50]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -0.712043
+[2024.08.09-07.31.20:547][ 51]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -0.451169
+[2024.08.09-07.31.20:557][ 52]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -0.166689
+[2024.08.09-07.31.20:568][ 53]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.150806
+[2024.08.09-07.31.20:586][ 54]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.418066
+[2024.08.09-07.31.20:598][ 55]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.932809
+[2024.08.09-07.31.20:676][ 56]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -0.159317
+[2024.08.09-07.31.20:677][ 56]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -1.0
+[2024.08.09-07.31.20:692][ 57]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -0.378923
+[2024.08.09-07.31.20:709][ 58]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.058449
+[2024.08.09-07.31.20:722][ 59]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.55394
+[2024.08.09-07.31.20:731][ 60]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.896226
+[2024.08.09-07.31.20:740][ 61]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.899282
+[2024.08.09-07.31.20:749][ 62]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.742624
+[2024.08.09-07.31.20:757][ 63]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.596777
+[2024.08.09-07.31.20:766][ 64]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.440558
+[2024.08.09-07.31.20:766][ 64]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -1.0
+[2024.08.09-07.31.20:779][ 65]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -0.63192
+[2024.08.09-07.31.20:788][ 66]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -0.387749
+[2024.08.09-07.31.20:798][ 67]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -0.080969
+[2024.08.09-07.31.20:807][ 68]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.180831
+[2024.08.09-07.31.20:818][ 69]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.456329
+[2024.08.09-07.31.20:827][ 70]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.74692
+[2024.08.09-07.31.20:837][ 71]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.988025
+[2024.08.09-07.31.20:845][ 72]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.828294
+[2024.08.09-07.31.20:855][ 73]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.661382
+[2024.08.09-07.31.20:866][ 74]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.475677
+[2024.08.09-07.31.20:876][ 75]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.308824
+[2024.08.09-07.31.20:885][ 76]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0.125334
+[2024.08.09-07.31.20:895][ 77]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -0.052737
+[2024.08.09-07.31.20:907][ 78]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -0.227265
+[2024.08.09-07.31.20:915][ 79]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] -0.4
+[2024.08.09-07.31.21:656][154]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 1
+[2024.08.09-07.31.21:656][154]LogScript: Warning: При попытке прочитать свойство K2Node_Event_pickUp произошло обращение к значению "Нет"
+	BP_ThirdPersonCharacter_C /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_ThirdPersonCharacter_C_0
+	Function /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter_C:ExecuteUbergraph_BP_ThirdPersonCharacter:355A
+[2024.08.09-07.31.21:656][154]PIE: Error: Ошибка схемы в среде выполнения: "При попытке прочитать свойство K2Node_Event_pickUp произошло обращение к значению "Нет"". Узел:  Destroy Actor Граф:  EventGraph Функция:  Execute Ubergraph BP Third Person Character Схема:  BP_ThirdPersonCharacter
+[2024.08.09-07.31.22:963][293]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 0
+[2024.08.09-07.31.24:189][389]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.09-07.31.24:189][389]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.08.09-07.31.24:189][389]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.08.09-07.31.24:190][389]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.09-07.31.24:190][389]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap
+[2024.08.09-07.31.24:190][389]LogContentBundle: [ThirdPersonMap(Автономный)] Deleting container.
+[2024.08.09-07.31.24:190][389]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2024.08.09-07.31.24:190][389]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2024.08.09-07.31.24:194][389]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.08.09-07.31.24:200][389]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.09-07.31.24:223][389]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.08.09-07.31.24:223][389]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 5
+[2024.08.09-07.31.24:224][389]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2024.08.09-07.31.24:225][389]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2024.08.09-07.31.24:228][389]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.09-07.31.24:232][389]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2024.08.09-07.31.25:169][390]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2024.08.09-07.31.59:060][661]LogSlate: Window 'Журнал сообщений' being destroyed
+[2024.08.09-07.31.59:080][661]LogSlate: Window 'Журнал сообщений' being destroyed
